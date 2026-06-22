@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+FitHub
 
-## Getting Started
+FitHub is a community-driven fitness platform designed to connect fitness enthusiasts with local events, coaching sessions and community challenges. Built for the Zimbabwean fitness ecosystem, it simplifies event discovery, registration and management.
 
-First, run the development server:
+Key Features
+Event Discovery: Browse and filter fitness events by location and category.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Action-Oriented Dashboard: Track your registrations, pending payments, and upcoming sessions in a high-end dark-mode command center.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Professional Registration Flow: Streamlined booking process that integrates with WhatsApp for secure local payments and direct communication with coaches.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+User Authentication: Secure Login/Sign-Up flow with a modern side-by-side UI.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tech Stack
+Framework: Next.js (React)
 
-## Learn More
+Styling: Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+Components: Shadcn/UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Icons: React-Icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployment: Vercel
