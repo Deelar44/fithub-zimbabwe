@@ -1,19 +1,26 @@
 "use client";
 
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Eye, EyeOff, Lock, Mail, User } from "lucide-react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useState, useEffect } from "react";
 
 export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
   const [showPassword, setShowPassword] = useState(false);
   const router = useRouter();
-
+  const searchParams = useSearchParams();
+  const mode = searchParams.get("mode");
   const handleAuth = () => {
     router.push("/dashboard");
+
+    useEffect(() => {
+      if (mode === "signup") {
+        setIsLogin(false);
+      }
+    }, [mode]);
   };
 
   return (

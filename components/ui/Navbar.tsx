@@ -69,7 +69,7 @@ export default function Navbar() {
                 <Link href="/sign-in">
                   <Button variant="ghost">Log In</Button>
                 </Link>
-                <Link href="/sign-up">
+                <Link href="/sign-in?mode=signup">
                   <Button className="bg-[#10B981]">Sign Up</Button>
                 </Link>
               </>
@@ -106,7 +106,7 @@ export default function Navbar() {
                 Log In
               </Button>
             </Link>
-            <Link href="/sign-up" onClick={() => setIsOpen(false)}>
+            <Link href="/sign-in" onClick={() => setIsOpen(false)}>
               <Button className="w-full h-12 bg-[#10B981] font-bold">
                 Sign Up
               </Button>
